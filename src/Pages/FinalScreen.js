@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 export default function FinalScreen({ score }) {
   const navigate = useNavigate();
   const scoree = score;
-  console.log(score);
+  console.log(scoree);
 
   function handleClick() {
     navigate("/");

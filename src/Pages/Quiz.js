@@ -1,7 +1,7 @@
 import "../index.css";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Timer from "./Timer";
+import Timer from "../Components/Timer";
 import FinalScreen from "./FinalScreen";
 
 export default function Quiz(questionList) {

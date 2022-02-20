@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import FinalScreen from "./FinalScreen";
+import FinalScreen from "../Pages/FinalScreen";
 
 const Timer = ({ childToParent, score}) => {
   const [seconds, setSeconds] = useState(0);
